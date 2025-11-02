@@ -3,9 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Sesión de trabajo_atlas_1", frames: [[0,0,715,497],[1551,396,465,106],[0,567,720,66],[0,499,1549,66],[717,0,436,431],[1390,0,218,394],[1610,0,161,184],[1155,0,233,393]]},
-		{name:"Sesión de trabajo_atlas_2", frames: [[0,1658,1057,356],[0,770,1589,442],[0,1214,1589,442],[0,0,1344,768]]},
-		{name:"Sesión de trabajo_atlas_3", frames: [[0,790,911,1200],[0,0,1400,788]]}
+		{name:"Sesión de trabajo_atlas_1", frames: [[0,1477,1589,442],[0,790,1200,685],[0,0,1400,788]]},
+		{name:"Sesión de trabajo_atlas_2", frames: [[0,512,465,106],[467,512,720,66],[0,444,1549,66],[1591,0,436,431],[0,0,1589,442],[1826,433,218,394],[1189,512,161,184],[1591,433,233,393]]}
 ];
 
 
@@ -29,6 +28,40 @@ lib.ssMetadata = [
 
 
 
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_11 = function() {
+	this.initialize(img.CachedBmp_11);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2569,110);
+
+
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.CachedBmp_9 = function() {
 	this.initialize(ss["Sesión de trabajo_atlas_1"]);
 	this.gotoAndStop(0);
@@ -37,123 +70,45 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_8 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
 	this.initialize(ss["Sesión de trabajo_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_4 = function() {
-	this.initialize(img.CachedBmp_4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2569,110);
-
-
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_1 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.albedo = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib.FONDO2 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_2"]);
-	this.gotoAndStop(3);
+	this.initialize(ss["Sesión de trabajo_atlas_1"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.GLOBALSTRIPESCHOOSEYOURFUTURE = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_3"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["Sesión de trabajo_atlas_1"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits1 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits2 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Mapadebits3 = function() {
-	this.initialize(ss["Sesión de trabajo_atlas_1"]);
+	this.initialize(ss["Sesión de trabajo_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
-
-
-(lib.TextSergioV = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.instance = new lib.CachedBmp_9();
-	this.instance.setTransform(0,-30.25,0.4212,0.4212);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,-30.2,301.2,209.29999999999998);
 
 
 (lib.Símbolo13 = function(mode,startPosition,loop,reversed) {
@@ -180,29 +135,6 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,1283.6,54);
 
 
-(lib.Símbolo6 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.instance = new lib.FONDO2();
-	this.instance.setTransform(0,0,1.0715,1.099);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1440.1,844.1);
-
-
 (lib.Símbolo5 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -215,7 +147,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.instance = new lib.CachedBmp_8();
+	this.instance = new lib.CachedBmp_14();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -292,212 +224,6 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(0,0,218,394);
 
 
-(lib.Símbolo1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#00FF99").s().p("AlRFRQiLiLAAjGQAAjFCLiMQCMiLDFAAQDGAACLCLQCMCMAADFQAADGiMCLQiLCMjGAAQjFAAiMiMg");
-	this.shape.setTransform(47.7,47.7);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#00FF99").s().p("AjMDNQhVhVAAh4QAAh3BVhVQBVhVB3AAQB4AABVBVQBVBVAAB3QAAB4hVBVQhVBVh4AAQh3AAhVhVg");
-	this.shape_1.setTransform(47.7,47.7);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape}]}).to({state:[{t:this.shape_1}]},1).to({state:[{t:this.shape}]},1).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,95.4,95.4);
-
-
-(lib.Interpolación4 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#00FF99").s().p("AlRFRQiLiLAAjGQAAjFCLiMQCMiLDFAAQDGAACLCLQCMCMAADFQAADGiMCLQiLCMjGAAQjFAAiMiMg");
-
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-47.7,-47.7,95.4,95.4);
-
-
-(lib.Interpolación1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.instance = new lib.albedo();
-	this.instance.setTransform(-26.9,-35.4,0.059,0.059);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-26.9,-35.4,53.8,70.8);
-
-
-(lib.Símbolo7 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.instance = new lib.TextSergioV("synched",0);
-	this.instance.setTransform(211.6,112.15,1,1.1871,0,0,0,211.6,64.2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,301.2,248.5);
-
-
-(lib.Interpolación3 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.instance = new lib.Símbolo1();
-	this.instance.setTransform(0,0,1,1,0,0,0,47.7,47.7);
-	new cjs.ButtonHelper(this.instance, 0, 1, 2);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-47.7,-47.7,95.4,95.4);
-
-
-(lib.albedoInfo1 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Capa_1
-	this.instance = new lib.Interpolación1("synched",0);
-	this.instance.setTransform(26.9,35.4);
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,53.8,70.8);
-
-
-(lib.Abedo = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// timeline functions:
-	this.frame_0 = function() {
-		/* Detener en este fotograma
-		La línea de tiempo se detendrá/pausará en el fotograma en el que se inserte este código.
-		También se puede utilizar para detener/pausar la línea de tiempo de clips de película.
-		*/
-		
-		this.stop();
-	}
-	this.frame_29 = function() {
-		/* Detener en este fotograma
-		La línea de tiempo se detendrá/pausará en el fotograma en el que se inserte este código.
-		También se puede utilizar para detener/pausar la línea de tiempo de clips de película.
-		*/
-		
-		this.stop();
-	}
-
-	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(29).call(this.frame_29).wait(1));
-
-	// Capa_3
-	this.instance = new lib.CachedBmp_7();
-	this.instance.setTransform(-115.3,156.65,0.5,0.5);
-	this.instance._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(29).to({_off:false},0).wait(1));
-
-	// Capa_2
-	this.instance_1 = new lib.albedoInfo1("synched",0);
-	this.instance_1.setTransform(-410.1,217.4,1,1,0,0,0,26.9,35.4);
-	this.instance_1._off = true;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false},0).to({scaleX:9.435,scaleY:9.435,x:-409.65},27).wait(1).to({startPosition:0},0).wait(1));
-
-	// Capa_1
-	this.instance_2 = new lib.Interpolación3("synched",0);
-	this.instance_2.setTransform(47.7,47.7);
-
-	this.instance_3 = new lib.Interpolación4("synched",0);
-	this.instance_3.setTransform(47.7,47.7);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2}]}).to({state:[{t:this.instance_3}]},29).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({_off:true},29).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-663.4,-116.6,1076.6,667.9);
-
-
 // stage content:
 (lib.Sesióndetrabajo = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -513,6 +239,97 @@ if (reversed == null) { reversed = false; }
 	this.actionFrames = [0,1,2,3];
 	// timeline functions:
 	this.frame_0 = function() {
+		// Crear elemento <video>
+		let video = document.createElement("video");
+		
+		// Configurar atributos
+		video.src = "BACKGROUND.mp4"; // ruta al video
+		video.width = 1280;
+		video.height = 720;
+		video.style.position = "absolute";
+		video.style.left = "0px";  // posición respecto a la página
+		video.style.top = "0px";
+		video.controls = false;  // puedes poner true para mostrar controles
+		document.body.appendChild(video);
+		
+		
+		// Opcional: ajustar volumen o bucle
+		video.volume = 1.0;
+		video.loop = false;
+		
+		
+		// Guardar referencia global
+		this.miVideo = video;
+		
+		this.miVideo.setAttribute("playsinline", true);
+		this.miVideo.muted = true; // o true si lo necesitas en autoplay
+		this.miVideo.currentTime = 0;
+		this.miVideo.play();
+		
+		
+		// Crear primer texto
+		let texto = document.createElement("div");
+		texto.innerText = "DESCIFRANDO";
+		texto.style.position = "absolute";
+		texto.style.left = "450px";
+		texto.style.top = "200px";
+		texto.style.color = "white";
+		texto.style.fontSize = "50px";
+		texto.style.fontFamily = "Arial";
+		texto.style.fontWeight = "bold";
+		texto.style.textShadow = "2px 2px 4px black";
+		texto.style.zIndex = "2";
+		texto.style.opacity = "0"; // opacidad inicial 0 para fade-in
+		texto.style.transition = "opacity 2s ease-in-out"; // duración del fade-in
+		document.body.appendChild(texto);
+		
+		// Crear segundo texto
+		let texto2 = document.createElement("div");
+		texto2.innerText = "EL CALENTAMIENTO GLOBAL";
+		texto2.style.position = "absolute";
+		texto2.style.left = "300px";
+		texto2.style.top = "450px";
+		texto2.style.color = "white";
+		texto2.style.fontSize = "50px";
+		texto2.style.fontFamily = "Arial";
+		texto2.style.fontWeight = "bold";
+		texto2.style.textShadow = "2px 2px 4px black";
+		texto2.style.zIndex = "2";
+		texto2.style.opacity = "0"; // opacidad inicial 0
+		texto2.style.transition = "opacity 2s ease-in-out";
+		document.body.appendChild(texto2);
+		
+		setTimeout(() => {
+		    texto.style.opacity = "1";  // fade-in del primer texto
+		    texto2.style.opacity = "1"; // fade-in del segundo texto
+		}, 12000);
+		
+		
+		setTimeout(() => {
+		            
+			  texto.remove();
+		      texto2.remove();
+		    }, 17000);
+		
+		
+		// Desaparición del vídeo en fade out cuando termina
+		
+		video.addEventListener("ended", () => {
+			texto.style.transition = "opacity 1s ease-out";
+		    texto2.style.transition = "opacity 1s ease-out";
+		    texto.style.opacity = "0";
+		    texto2.style.opacity = "0";
+		    video.style.transition = "opacity 1s";
+		    video.style.opacity = "0";
+		  
+		  setTimeout(() => {
+		      video.remove();        
+			  
+		    }, 1000);
+			
+		});
+		
+		
 		this.stop();
 		/* Hacer clic para ir al fotograma y detener
 		Al hacer clic en la instancia del símbolo especificado, la cabeza lectora se mueve hasta el fotograma especificado en la línea de tiempo y detiene la película.
@@ -543,47 +360,6 @@ if (reversed == null) { reversed = false; }
 		*/
 		
 		this.stop();
-		
-		/* Evento MouseClick
-		Al hacer clic en la instancia del símbolo especificado, se ejecuta una función a la que puede añadir su código personalizado.
-		
-		Instrucciones:
-		1. Añada el código personalizado en una nueva línea después de la línea que dice "// Inicio del código personalizado" más abajo.
-		El código se ejecutará al hacer clic en la instancia del símbolo.
-		*/
-		
-		this.AlbedoMovie.addEventListener("click", fl_MouseClickHandler.bind(this));
-		
-		function fl_MouseClickHandler()
-		{
-			// Inicio del código personalizado
-			// Este código de ejemplo muestra las palabras "Ratón pulsado" en el panel Salida.
-				this.gotoAndPlay(2);
-			
-			// Fin del código personalizado
-		}
-		
-		
-		
-		/* Evento MouseOut
-		Al retirar el ratón de la instancia del símbolo especificado, se ejecuta una función a la que puede añadir su código personalizado.
-		
-		Instrucciones:
-		1. Añada el código personalizado en una nueva línea después de la línea que dice "// Inicio del código personalizado" más abajo.
-		El código se ejecutará al retirar el ratón de la instancia del símbolo.
-		*/
-		var frequency = 3;
-		stage.enableMouseOver(frequency);
-		this.AlbedoMovie.addEventListener("mouseout", fl_MouseOutHandler);
-		
-		function fl_MouseOutHandler()
-		{
-			// Inicio del código personalizado
-			// Este código de ejemplo muestra las palabras "Ratón retirado" en el panel Salida.
-			
-			this.gotoAndStop(1);
-			// Fin del código personalizado
-		}
 	}
 	this.frame_3 = function() {
 		/* Detener en este fotograma
@@ -598,10 +374,10 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1).call(this.frame_1).wait(1).call(this.frame_2).wait(1).call(this.frame_3).wait(1));
 
 	// TextoINTRO
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_9();
 	this.instance.setTransform(29.35,68,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_1();
+	this.instance_1 = new lib.CachedBmp_8();
 	this.instance_1.setTransform(30.4,72.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).to({state:[]},1).wait(3));
@@ -615,7 +391,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.setTransform(434.5,408,1,1,0,0,0,80.5,92);
 	new cjs.ButtonHelper(this.instance_3, 0, 1, 1);
 
-	this.instance_4 = new lib.CachedBmp_3();
+	this.instance_4 = new lib.CachedBmp_10();
 	this.instance_4.setTransform(323.4,501.2,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_4},{t:this.instance_3},{t:this.instance_2}]}).to({state:[]},1).wait(3));
@@ -635,47 +411,35 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.Equipo1).to({_off:true},1).wait(3));
 
-	// Sergio2
-	this.instance_6 = new lib.Símbolo7("synched",0);
-	this.instance_6.setTransform(519.35,148.05,1,1,0,0,0,150.7,124.3);
-
-	this.AlbedoMovie = new lib.Abedo();
-	this.AlbedoMovie.name = "AlbedoMovie";
-	this.AlbedoMovie.setTransform(855.55,197.5,1,1,0,0,0,47.7,47.7);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_6}]},1).to({state:[{t:this.AlbedoMovie}]},1).to({state:[]},1).wait(1));
-
 	// FONDO2
-	this.instance_7 = new lib.Símbolo6("synched",0);
-	this.instance_7.setTransform(597.1,422,1,1,0,0,0,720.1,422);
+	this.instance_6 = new lib.FONDO2();
+	this.instance_6.setTransform(-83,0,1.1362,1.1362);
+	this.instance_6._off = true;
 
-	this.instance_8 = new lib.Símbolo7("synched",0);
-	this.instance_8.setTransform(502.65,148.7,1,1,0,0,0,150.7,124.3);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_7,p:{x:597.1}}]},1).to({state:[{t:this.instance_7,p:{x:569.45}},{t:this.instance_8}]},1).to({state:[]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(1).to({_off:false},0).to({_off:true},2).wait(1));
 
 	// FONDOINICIO
-	this.instance_9 = new lib.CachedBmp_6();
-	this.instance_9.setTransform(896.15,10.3,0.5,0.5);
+	this.instance_7 = new lib.CachedBmp_13();
+	this.instance_7.setTransform(896.15,10.3,0.5,0.5);
 
-	this.instance_10 = new lib.CachedBmp_5();
-	this.instance_10.setTransform(22,10.3,0.5,0.5);
+	this.instance_8 = new lib.CachedBmp_12();
+	this.instance_8.setTransform(22,10.3,0.5,0.5);
 
-	this.instance_11 = new lib.Símbolo13("synched",0);
-	this.instance_11.setTransform(641.8,27,1,1,0,0,0,641.8,27);
+	this.instance_9 = new lib.Símbolo13("synched",0);
+	this.instance_9.setTransform(641.8,27,1,1,0,0,0,641.8,27);
 
-	this.instance_12 = new lib.GLOBALSTRIPESCHOOSEYOURFUTURE();
-	this.instance_12.setTransform(1,-8,0.9143,0.9239);
+	this.instance_10 = new lib.GLOBALSTRIPESCHOOSEYOURFUTURE();
+	this.instance_10.setTransform(1,-8,0.9143,0.9239);
 
-	this.instance_13 = new lib.CachedBmp_4();
-	this.instance_13.setTransform(-0.5,-0.5,0.5,0.5);
+	this.instance_11 = new lib.CachedBmp_11();
+	this.instance_11.setTransform(-0.5,-0.5,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9}]}).to({state:[]},1).wait(3));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7}]}).to({state:[]},1).wait(3));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,1317.1,844.1);
+p.nominalBounds = new cjs.Rectangle(0,0,1284,778.3);
 // library properties:
 lib.properties = {
 	id: '7576601AE606A14F940B9647A899AF49',
@@ -685,10 +449,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_4.png?1761752714228", id:"CachedBmp_4"},
-		{src:"images/Sesión de trabajo_atlas_1.png?1761752714208", id:"Sesión de trabajo_atlas_1"},
-		{src:"images/Sesión de trabajo_atlas_2.png?1761752714208", id:"Sesión de trabajo_atlas_2"},
-		{src:"images/Sesión de trabajo_atlas_3.png?1761752714208", id:"Sesión de trabajo_atlas_3"}
+		{src:"images/CachedBmp_11.png?1762121461628", id:"CachedBmp_11"},
+		{src:"images/Sesión de trabajo_atlas_1.png?1762121461612", id:"Sesión de trabajo_atlas_1"},
+		{src:"images/Sesión de trabajo_atlas_2.png?1762121461612", id:"Sesión de trabajo_atlas_2"}
 	],
 	preloads: []
 };
