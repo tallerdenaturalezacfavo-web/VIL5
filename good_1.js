@@ -243,7 +243,7 @@ if (reversed == null) { reversed = false; }
 		let video = document.createElement("video");
 		
 		// Configurar atributos
-		video.src = "BACKGROUND.mp4"; // ruta al video
+		video.src = "videos/BACKGROUND.mp4"; // ruta al video
 		video.width = 1280;
 		video.height = 720;
 		video.style.position = "absolute";
